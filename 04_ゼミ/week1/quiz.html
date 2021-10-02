@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WebExpertコーステンプレート</title>
+  </head>
+  <body>
+    <h1>好きなスポーツは何でしょう?</h1>
+    <div>
+      <button id="button1">野球</button>
+      <button id="button2">テニス</button>
+      <button id="button3">サッカー</button>
+    </div>
+    <div id="message">どれでしょう？</div>
+    <script>
+      const button1 = document.getElementById("button1");
+      const button2 = document.getElementById("button2");
+      const button3 = document.getElementById("button3");
+      const message = document.getElementById("message");
+
+      button1.onclick = function () {
+        message.textContent = "はずれ";
+      };
+      button2.onclick = function () {
+        message.textContent = "あたり";
+      };
+      button3.onclick = function () {
+        message.textContent = "はずれ";
+      };
+    </script>
+  </body>
+</html>
