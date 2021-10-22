@@ -1,5 +1,5 @@
 const display = document.getElementById("display")
-const plusButton = document.getElementById("plus-button")
+const plusButton = document.getElementById("olusButton")
 
 let count = 0
 
